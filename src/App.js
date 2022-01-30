@@ -39,7 +39,7 @@ function App() {
     <div className="main">
       <div className="main--gradient-block"></div>
       <div className="content">
-        <h1>Simple Mention Field example</h1>
+        <h1>Simple Mention Component in React</h1>
         <h4>Example Data (for Suggestion)</h4>
         <div className="data-preview">
           <pre>{JSON.stringify(suggestionsExample, null, 2)}</pre>
