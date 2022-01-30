@@ -27,7 +27,7 @@ export default function MentionField({
     });
     setSuggestions(updatedSuggestions);
     setAllSuggestions(updatedSuggestions);
-  }, []);
+  }, [initialSuggestions]);
 
   const handleTextareaChange = (ev) => {
     const textarea = ev.target;
