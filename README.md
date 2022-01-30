@@ -1,9 +1,9 @@
 # Simple Mention Component
 
 I needed this kind of component, but couldnt find any good examples, so i created my own :)
-Its a simple textarea field that lets you add suggestions (you can mention users by their name), this information is then processed into markdown and you can also provide an email that will then be reflected in the markdown.
+Its a simple textarea field that lets you add suggestions (you can mention users by their name), this information is then processed into **markdown** and you can also provide an **email** that will then be reflected in the markdown.
 You can have a look at the demo here:
-
+https://react-mention-email-component.netlify.app
 
 ## Available Scripts
 
