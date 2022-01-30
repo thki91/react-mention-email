@@ -1,0 +1,130 @@
+.main {
+  padding: 40px 20px 0 20px;
+}
+
+.content {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  margin-left: 350px;
+}
+
+.main--gradient-block {
+  background: linear-gradient(90deg, #ff928b, #fec3a6 80%);
+  width: 350px;
+  height: 100%;
+  position: fixed;
+  left: -10px;
+  top: 0;
+  z-index: -1;
+}
+
+.data-preview {
+  background: #fcfaee;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.data-preview pre,
+p {
+  margin: 0 !important;
+  font-size: 12px;
+}
+
+h1 {
+  border-left: 8px solid #ff928b;
+  padding-left: 10px;
+  margin-bottom: 50px;
+}
+
+a {
+  color: #ff7a70;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 880px) {
+  .content {
+    margin-left: 0px;
+  }
+
+  .main--gradient-block {
+    display: none;
+  }
+
+  .main {
+    padding-top: 50px;
+  }
+}
+
+button {
+  background-color: #efe9ae;
+  font-weight: bold;
+  outline: none;
+  box-shadow: none;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: right;
+  transition: background-color 400ms ease;
+}
+
+button:hover {
+  background-color: #e7de88;
+}
+
+.mention-field {
+  width: 100%;
+  outline: none;
+  border-radius: 8px;
+  padding: 8px;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 5px;
+  height: 88px;
+  box-shadow: none;
+  border: 1px solid #463c0c;
+}
+
+.mention-field__wrapper {
+  position: relative;
+}
+
+.mention-field:focus {
+  border: 1px solid #bcbcbc;
+}
+
+.mention-field__suggestions {
+  position: absolute;
+  z-index: 1;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.mention-field__suggestion {
+  padding: 4px 8px;
+  font-size: 12px;
+  transition: background-color 400ms ease;
+  cursor: pointer;
+}
+
+.mention-field__label {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.mention-field__suggestion:hover {
+  padding: 4px 8px;
+  font-size: 12px;
+  background-color: #fec3a6;
+}
+
+.mention-field__suggestion--focused {
+  background-color: #ffac81;
+}
